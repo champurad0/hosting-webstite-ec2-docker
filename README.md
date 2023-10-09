@@ -36,11 +36,11 @@ Verify the instance type, in this case I'm staying in the free tier
 
 Now we will create a key pair to allow us to SSH in from our local machine 
 
-![Image](<Pasted image 20231008190225.png>)
+![SSH Keys](<Assets/Pasted image 20231008190225.png>)
 
 You can name the `Key Pair` whatever. Since im using a Win 11 machine I'll be using `RSA` for the Key Pair type and `.pem` for the format 
 
-![Image](<Pasted image 20231008190526.png>)
+![Key Pairs](<Assets/Pasted image 20231008190526.png>)
 
 Since this is a web site, usee the `Create security group` and All SSH from anywhere (since this is a test this should be fine) and Allow HTTP traffic
 
