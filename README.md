@@ -19,7 +19,7 @@ The project is simple.
 ### 1. Creating the EC2 instance
 
 Navigate over to the EC2 dashboard
-![[Pasted image 20231008184611.png]]
+![[Assets\Pasted image 20231008184611.png]]
 
 From the dashboard select `Instances` > `Launch Instance` OR simply hit `Launch Instance`
 
