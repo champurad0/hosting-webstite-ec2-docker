@@ -19,27 +19,28 @@ The project is simple.
 ### 1. Creating the EC2 instance
 
 Navigate over to the EC2 dashboard
-![EC2][Assets\Pasted image 20231008184611.png]
+
+![EC2](<Assets/Pasted image 20231008184611.png>)
 
 From the dashboard select `Instances` > `Launch Instance` OR simply hit `Launch Instance`
 
-![[Pasted image 20231008185720.png]]
+![Image](<Assets/Pasted image 20231008185720.png>)
 
 Give the instance a name and select the Amazon Linux OS image
 
-![[Pasted image 20231008190028.png]]
+![Image](<Assets/Pasted image 20231008190028.png>)
 
 Verify the instance type, in this case I'm staying in the free tier
 
-![[Pasted image 20231008190051.png]]
+![Image](<Assets/Pasted image 20231008190051.png>)
 
 Now we will create a key pair to allow us to SSH in from our local machine 
 
-![[Pasted image 20231008190225.png]]
+![Image](<Pasted image 20231008190225.png>)
 
 You can name the `Key Pair` whatever. Since im using a Win 11 machine I'll be using `RSA` for the Key Pair type and `.pem` for the format 
 
-![[Pasted image 20231008190526.png]]
+![Image](<Pasted image 20231008190526.png>)
 
 Since this is a web site, usee the `Create security group` and All SSH from anywhere (since this is a test this should be fine) and Allow HTTP traffic
 
